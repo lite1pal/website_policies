@@ -25,3 +25,60 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@import "@fontsource/roboto/300.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+
+.main {
+  font-family: "roboto";
+}
+
+.navbar {
+  background-color: #071b2a;
+}
+
+.webpolicies {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.btn-login {
+  padding: 0.45rem 0.8rem;
+  font-size: 0.96rem;
+}
+
+.btn-login:hover {
+  background-color: #104558;
+  transition: 0.1s ease-in-out;
+}
+
+.btn-signup {
+  color: white;
+  padding: 0.45rem 0.8rem;
+  border-radius: 0.1rem;
+  font-size: 0.96rem;
+  background-color: #00b9ff;
+}
+
+.btn-signup:hover {
+  background-color: #41b5df;
+  transition: 0.1s ease-in-out;
+}
+
+.menu-icon {
+  background-color: #06b9ff;
+  border-radius: 0.1rem;
+  padding: 0.43rem 0.7rem;
+}
+
+.btn-preview {
+  background-color: #2bc166;
+}
+
+.btn-preview:hover {
+  background-color: rgb(25, 166, 25);
+}
